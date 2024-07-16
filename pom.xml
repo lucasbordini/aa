@@ -10,7 +10,6 @@
   <groupId>com.brightwell</groupId>
   <artifactId>ReadyRemitSDK</artifactId>
   <version>8.0</version>
-  <packaging>aar</packaging>
   <dependencies>
     <dependency>
       <groupId>androidx.databinding</groupId>
@@ -99,11 +98,13 @@
     <dependency>
       <groupId>androidx.compose.ui</groupId>
       <artifactId>ui-tooling</artifactId>
+        <version>1.5.14</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>androidx.compose.ui</groupId>
       <artifactId>ui-tooling-preview</artifactId>
+        <version>1.5.14</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
@@ -121,11 +122,13 @@
     <dependency>
       <groupId>org.jetbrains.kotlinx</groupId>
       <artifactId>kotlinx-coroutines-core</artifactId>
+      <version>1.7.1</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>org.jetbrains.kotlinx</groupId>
       <artifactId>kotlinx-coroutines-android</artifactId>
+      <version>1.7.1</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
